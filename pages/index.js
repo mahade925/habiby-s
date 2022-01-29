@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 
 const index = () => {
   return (
@@ -6,8 +7,10 @@ const index = () => {
       <Head>
         <title>Habiby's</title>
         <link rel="shortcut icon" href="https://i.ibb.co/ZHL48R5/logo.png" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="/dist/output.css" rel="stylesheet"></link>
       </Head>
-      <h1>Hello Habiby's</h1>
+      <Navbar></Navbar>
     </>
   );
 }
