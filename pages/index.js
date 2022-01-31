@@ -1,4 +1,5 @@
 import Head from "next/head";
+import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 
 const index = () => {
@@ -11,6 +12,43 @@ const index = () => {
         <link href="/dist/output.css" rel="stylesheet"></link>
       </Head>
       <Navbar></Navbar>
+      <HeroSection></HeroSection>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
     </>
   );
 }

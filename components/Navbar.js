@@ -8,12 +8,13 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
-            <nav className="shadow-md fixed w-full z-5">
+            <nav className="shadow-lg fixed w-full z-5 p-4 bg-transparent bg-white">
                 <div className="w-full">
                     <div className="flex items-center h-20 w-full">
                         <div className="flex items-center  mx-20  justify-between w-full">
                             <div className="flex justify-center items-center flex-shrink-0 ">
                                 <Image
+                                    data-aos="zoom-out"
                                     src={Logo}
                                     width={200}
                                     height={200}
@@ -22,6 +23,9 @@ const Navbar = () => {
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
                                     <Link
+                                        data-aos="fade-down"
+                                        data-aos-easing="linear"
+                                        data-aos-duration="1000"
                                         activeClass="Home"
                                         to="about"
                                         smooth={true}
@@ -32,6 +36,9 @@ const Navbar = () => {
                                         Home
                                     </Link>
                                     <Link
+                                        data-aos="fade-down"
+                                        data-aos-easing="linear"
+                                        data-aos-duration="1000"
                                         activeClass="about"
                                         to="about"
                                         smooth={true}
@@ -42,6 +49,9 @@ const Navbar = () => {
                                         About
                                     </Link>
                                     <Link
+                                    data-aos="fade-down"
+                                        data-aos-easing="linear"
+                                        data-aos-duration="1000"
                                         activeClass="work"
                                         to="work"
                                         smooth={true}
@@ -53,6 +63,9 @@ const Navbar = () => {
                                     </Link>
 
                                     <Link
+                                    data-aos="fade-down"
+                                        data-aos-easing="linear"
+                                        data-aos-duration="1000"
                                         activeClass="Services"
                                         to="work"
                                         smooth={true}
@@ -64,14 +77,17 @@ const Navbar = () => {
                                     </Link>
 
                                     <Link
+                                    data-aos="fade-down"
+                                        data-aos-easing="linear"
+                                        data-aos-duration="1000"
                                         activeClass="contact"
                                         to="contact"
                                         smooth={true}
                                         offset={50}
                                         duration={500}
-                                        className="cursor-pointer bg-blue-600 text-white px-3 py-2 rounded-md text-xl font-medium hover:bg-black"
+                                        className="cursor-pointer bg-blue-600 text-white px-3 py-2 rounded-md text-xl font-medium hover:bg-red-500"
                                     >
-                                        Contact
+                                        Login
                                     </Link>
                                 </div>
                             </div>
@@ -183,7 +199,7 @@ const Navbar = () => {
                                 >
                                     Reservation
                                 </Link>
-
+                                <link rel="stylesheet" href="" />
                                 <Link
                                     href="/contact"
                                     activeClass="work"
@@ -193,7 +209,7 @@ const Navbar = () => {
                                     duration={500}
                                     className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
-                                    Contact
+                                    Login
                                 </Link>
                             </div>
                         </div>
