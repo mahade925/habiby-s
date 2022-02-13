@@ -8,13 +8,14 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
-            <nav className="shadow-lg fixed w-full z-5 p-4 bg-transparent bg-white">
+            <nav className="shadow-lg w-full z-5 p-4 bg-transparent bg-white">
                 <div className="w-full">
                     <div className="flex items-center h-20 w-full">
-                        <div className="flex items-center  mx-20  justify-between w-full">
+                        <div className="flex items-center  mx-20 justify-around w-full">
                             <div className="flex justify-center items-center flex-shrink-0 ">
                                 <Image
                                     data-aos="zoom-out"
+                                    data-aos-duration="3000"
                                     src={Logo}
                                     width={200}
                                     height={200}

@@ -1,9 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 79, 79);
+  border-radius: 30px;
+}
 
 html,
 body {
+  background-color: rgb(241, 241, 241);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -25,3 +41,12 @@ a {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.redressed {
+  font-family: 'Redressed', cursive;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
